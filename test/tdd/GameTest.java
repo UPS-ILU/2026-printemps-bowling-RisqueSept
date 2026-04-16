@@ -14,6 +14,11 @@ public class GameTest {
 	}
 
 	@Test
+	void test1() {
+		assertEquals(0, game.score());
+	}
+
+	@Test
 	void test_aucune_quille() {
 		for (int i = 0; i < 20; i++) {
 			game.roll(0);
@@ -21,4 +26,10 @@ public class GameTest {
 		assertEquals(0, game.score());
 	}
 
+	@Test
+	void test3() {
+		for (int i = 0; i < 20; i++) {
+			game.roll(1);
+		}
+	}
 }

@@ -12,3 +12,9 @@
 - [ ] B12
 - [ ] B21
 - [ ] B22
+
+
+- Backlog
+- [X] Entrée : vide, score attendu : 0 -> ITER1
+- [X] Roll 20 fois 0, score attentu : 0 -> ITER2
+- [X] Roll 20 fois 1, score attendu : 20 -> ITER3
