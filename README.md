@@ -2,7 +2,7 @@
 
 ### NOM : SEGUINEAU
 ### Prénom : Mahé
-### Groupe de TP : 
+### Groupe de TP : A22
 (Éditez ce README.md et remplacez `[ ]` par `[x]` (*x* minuscule) dans la bonne ligne ci-dessous)
 - [ ] A11
 - [ ] A12
