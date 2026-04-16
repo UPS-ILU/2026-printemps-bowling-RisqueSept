@@ -18,3 +18,4 @@
 - [X] Entrée : vide, score attendu : 0 -> ITER1
 - [X] Roll 20 fois 0, score attentu : 0 -> ITER2
 - [X] Roll 20 fois 1, score attendu : 20 -> ITER3
+- [X] Roll 10 fois 1 et 10 fois 2, score attendu : 30 -> ITER4
