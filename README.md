@@ -21,6 +21,6 @@
 - [x] Roll 10 fois 1 et 10 fois 2, score attendu : 30 -> ITER4
 - [x] Roll 7, 3 puis 4 et 17 fois 0, score attendu : 18 -> ITER 5
 - [x] Roll 10, 3 puis 4 & 16 fois 0, score attendu : 24 -> ITER 6
-- [ ] Roll 1, 2, 10, 0, 10, 4, 2, 0, 10, 6, 2, 0, 10, 6, 4, 8, 2, 2, 7, score attendu : 122 -> ITER 7
+- [x] Roll 1, 2, 10, 0, 10, 4, 2, 0, 10, 6, 2, 0, 10, 6, 4, 8, 2, 2, 7, score attendu : 122 -> ITER 7
 - [ ] Roll 1, 2, 10, 0, 10, 4, 2, 0, 10, 6, 2, 0, 10, 6, 4, 8, 2, 2, 8, 8, score attendu : 131 -> ITER 8
 - [ ] Roll 12 fois 10, Score attendu : 300

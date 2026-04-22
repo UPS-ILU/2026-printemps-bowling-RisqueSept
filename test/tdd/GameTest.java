@@ -67,4 +67,16 @@ public class GameTest {
 		assertEquals(24, game.score());
 	}
 	
+	private void rollAssist(int[] list) {
+		for(int i=0; i<list.length; i++) {
+			game.roll(list[i]);
+		}
+	}
+	
+	@Test
+	void test7() {
+		int[] tab = {1, 2, 10, 0, 10, 4, 2, 0, 10, 6, 2, 0, 10, 6, 4, 8, 2, 2, 7};
+		rollAssist(tab);
+		assertEquals(122, game.score());
+	}
 }
