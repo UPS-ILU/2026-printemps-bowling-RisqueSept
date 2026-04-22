@@ -79,4 +79,11 @@ public class GameTest {
 		rollAssist(tab);
 		assertEquals(122, game.score());
 	}
+	
+	@Test
+	void test8() {
+		int tab[] = {1, 2, 10, 0, 10, 4, 2, 0, 10, 6, 2, 0, 10, 6, 4, 8, 2, 2, 8, 8};
+		rollAssist(tab);
+		assertEquals(131, game.score());
+	}
 }
