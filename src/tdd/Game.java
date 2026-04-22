@@ -6,14 +6,11 @@ public class Game {
 
 	public void roll(int NbQuilles) {
 		score[tour] = NbQuilles;
-		if(tour >=2 && tour%2 != 0) {
-			int tourPrec = tour-1;
-			if(this.score[tourPrec] + this.score[tourPrec] == 10) {
-				this.score[tour-1] += NbQuilles;
+		if(tour >=1 && tour%2 == 1) {
+			int tab = tour/2;
+			if(this.score[2*tab] + this.score[2*tab+1] == 10) {
+				this.score[2*tab] += NbQuilles;
 			}
-		}
-		else {
-			this.score[tour] = NbQuilles;
 		}
 		tour ++;
 	}
